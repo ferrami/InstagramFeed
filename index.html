@@ -1,0 +1,97 @@
+<!-- We must always begin with an HTML label to show the browser that this is a document with an HTML format. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Inside the head tag we will define all the information the browser needs in order to start interpreting the page. -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Feed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Inside the body we will define the content of the page. -->
+<main>
+    <!--1st red box contains the header-->
+    <header>
+        <h1>Breathe Code Photo Feed</h1>
+    </header>
+
+    <!--This is the 1st image container-->
+
+    <!--2nd red box contains post content-->
+    <section>
+        <!--3rd red box contains title and date-->
+        <div class="photo_container">
+            <!--1st blue box-->
+            <div class="photo_header">
+                <h2 class="photo_title">My first photo</h2>
+                <p class="photo_date">02/30</p>
+            </div>
+
+            <!--2nd blue box contains image, taken from lorem picsum-->
+            <div class="photo_body">
+                <img src="https://picsum.photos/id/15/600/400" alt="Nature landscape">
+            </div>
+
+             <!--3rd blue box includes picture footer: description and link-->
+             <div class="photo_legend">
+                <p>This is my 1st photo of the feed, this is a multi line comment for testing purposes. I am learning to code with <a href="https://www.instagram.com/4geeksacademylatam/?hl=es">4GeeksAcademy</a></p>
+             </div>
+        </div>
+
+        <!--2nd image container (Post)-->
+        <div class="photo_container">
+
+            <div class="photo_header">
+                <h2 class="photo_title">Some cute thing</h2>
+                <p class="photo_date">03/15</p>
+            </div>
+
+            <div class="photo_body">
+                <img src="https://picsum.photos/id/40/600/400" alt="Cat nose picture">
+            </div>
+
+             <div class="photo_legend">
+                <p>The internet approves this cute nose...<a href="https://www.instagram.com/4geeksacademylatam/?hl=es">4GeeksAcademy</a></p>
+             </div>
+        </div>
+
+        <!--3rd image container (Post)-->
+        <div class="photo_container">
+           
+            <div class="photo_header">
+                <h2 class="photo_title">There's a paparazzi around</h2>
+                <p class="photo_date">03/27</p>
+            </div>
+
+            <div class="photo_body">
+                <img src="https://picsum.photos/id/27/600/400" alt="">
+            </div>
+
+             <div class="photo_legend">
+                <p>This is me ready for an awesome sunset after completing my code at <a href="https://www.instagram.com/4geeksacademylatam/?hl=es">4GeeksAcademy</a></p>
+             </div>
+        </div>
+
+        <!--4rd image container (Post)-->
+        <div class="photo_container">
+           
+            <div class="photo_header">
+                <h2 class="photo_title">And of course... food!</h2>
+                <p class="photo_date">03/29</p>
+            </div>
+
+            <div class="photo_body">
+                <img src="https://picsum.photos/id/999/600/400" alt="">
+            </div>
+
+             <div class="photo_legend">
+                <p>Because no photo feed is cool without some food on it! <a href="https://www.instagram.com/4geeksacademylatam/?hl=es">4GeeksAcademy</a></p>
+             </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
